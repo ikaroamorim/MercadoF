@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="mercado financeiro, homebroker, investimentos">
+    <meta name="author" content="Ikaro Amorim e Silva">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../plugins/fontawesome-5.13.1/css/all.min.css">
+
+    <title>Mercado Financeiro</title>
+</head>
+
+<body>
+    <header>
+        <div class="filter">
+            <div class="container">
+                <div class="menu-topo">
+                    <div class="logo"></div>
+                    <nav class="desktop">
+                        <ul>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Serviços</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a class="btn-nav" href="#">Quero um orçamento</a></li>
+                        </ul>
+                    </nav><!-- Desktop-->
+                    <nav class="mobile">
+                        <h3><i class="fas fa-bars"></i></h3>
+                        <ul>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Serviços</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a class="btn-nav" href="#">Quero um orçamento</a></li>
+                        </ul>
+                    </nav><!-- Mobile-->
+                    <div class="clear"></div>
+                </div><!-- Menu topo-->
+                <div class="chamada-header">
+                    <h2>Você obtendo mais <br /> da sua carteira de ações.</h2>
+                    <p>Análise diária de todos os ativos do mercado, para fornecer sempre as melhores oportunidades</p>
+                    <form action="">
+                        <input type="email" name="" id="" required="" placeholder="Seu e-mail">
+                        <input type="submit" name="acao" value="Quero saber mais">
+                    </form>
+                </div> <!-- chamada Header-->
+            </div><!-- Container -->
+        </div>
+    </header>
+
+    <section class="descricao">
+        <div class="container">
+            <p>
+                Com anos de experiência no mercado financeiro, a <b>Marca</b> detém o prestígio de seus clientes e
+                reconhecidas premiações.
+            </p>
+        </div>
+    </section><!-- Descricao -->
+
+    <section class="advertising-1">
+        <div class="container">
+            <div class="texto-descricao">
+                <h3>
+                    Visão Macro e planejamento para longo prazo são lemas para nós!
+                </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus officia reprehenderit aspernatur
+                    expedita esse, ullam consequatur sapiente nisi eos delectus itaque maiores minima corporis iure
+                    architecto voluptas eaque consectetur nostrum.</p>
+            </div><!-- Texto Descrição-->
+            <img src="/images/finance1.jpg" alt="finance1">
+            <div class="clear"></div>
+        </div>
+    </section><!-- Advertising 1-->
+
+    <section class="banner">
+        <div class="container">
+            <div class="content">
+                <div class="box-depoimento">
+                    <p>Teste Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo assumenda odio, deserunt
+                        quis corporis iure aut ex quo reprehenderit aspernatur quia consectetur nesciunt voluptatum.
+                        Itaque modi a dicta perferendis vitae.</p>
+                    <p><b>Bill Clinton</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="servicos">
+        <div class="container">
+            <div class="title-servicos">
+                <h3>Como podemos te ajudar <br> <i class="fa fa-angle-down"></i> </h3>
+            </div>
+            <div class="flex-servicos">
+                <div class="box-servico">
+                    <img src="../images/homebroker.png" alt="">
+                    <div class="box-servico-wraper">
+                        <h4>Servico 01</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum mollitia ipsam sunt,
+                            reiciendis alias cumque. Aperiam deleniti animi ipsam, nemo ratione fuga quas soluta
+                            temporibus maiores aliquid voluptatum, impedit illo?</p>
+                        <a href="">Saiba Mais</a>
+                    </div><!-- Serviço Wrapper -->
+                </div><!-- Box Servico-->
+
+                <div class="box-servico">
+                    <img src="../images/homebroker.png" alt="">
+                    <div class="box-servico-wraper">
+                        <h4>Servico 01</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum mollitia ipsam sunt,
+                            reiciendis alias cumque. Aperiam deleniti animi ipsam, nemo ratione fuga quas soluta
+                            temporibus maiores aliquid voluptatum, impedit illo?</p>
+                        <a href="">Saiba Mais</a>
+                    </div><!-- Serviço Wrapper -->
+                </div><!-- Box Servico-->
+
+                <div class="box-servico">
+                    <img src="../images/homebroker.png" alt="">
+                    <div class="box-servico-wraper">
+                        <h4>Servico 01</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum mollitia ipsam sunt,
+                            reiciendis alias cumque. Aperiam deleniti animi ipsam, nemo ratione fuga quas soluta
+                            temporibus maiores aliquid voluptatum, impedit illo?</p>
+                        <a href="">Saiba Mais</a>
+                    </div><!-- Serviço Wrapper -->
+                </div><!-- Box Servico-->
+
+                <div class="box-servico">
+                    <img src="../images/homebroker.png" alt="">
+                    <div class="box-servico-wraper">
+                        <h4>Servico 01</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum mollitia ipsam sunt,
+                            reiciendis alias cumque. Aperiam deleniti animi ipsam, nemo ratione fuga quas soluta
+                            temporibus maiores aliquid voluptatum, impedit illo?</p>
+                        <a href="">Saiba Mais</a>
+                    </div><!-- Serviço Wrapper -->
+                </div><!-- Box Servico-->
+
+                <div class="box-servico">
+                    <img src="../images/homebroker.png" alt="">
+                    <div class="box-servico-wraper">
+                        <h4>Servico 01</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum mollitia ipsam sunt,
+                            reiciendis alias cumque. Aperiam deleniti animi ipsam, nemo ratione fuga quas soluta
+                            temporibus maiores aliquid voluptatum, impedit illo?</p>
+                        <a href="">Saiba Mais</a>
+                    </div><!-- Serviço Wrapper -->
+                </div><!-- Box Servico-->
+
+                <div class="box-servico">
+                    <img src="../images/homebroker.png" alt="">
+                    <div class="box-servico-wraper">
+                        <h4>Servico 01</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum mollitia ipsam sunt,
+                            reiciendis alias cumque. Aperiam deleniti animi ipsam, nemo ratione fuga quas soluta
+                            temporibus maiores aliquid voluptatum, impedit illo?</p>
+                        <a href="">Saiba Mais</a>
+                    </div><!-- Serviço Wrapper -->
+                </div><!-- Box Servico-->
+            </div> <!-- flex Servico-->
+        </div>
+    </section>
+
+    <section class="portifolio">
+        <div class="container">
+            <h2>Nossos clientes</h2>
+            <div class="empresas">
+                <div class="empresa-single">
+                    <img src="../images/marca01.png" alt="">
+                </div> <!-- Empresa Single-->
+                <div class="empresa-single">
+                    <img src="../images/marca02.png" alt="">
+                </div> <!-- Empresa Single-->
+                <div class="empresa-single">
+                    <img src="../images/marca03.png" alt="">
+                </div> <!-- Empresa Single-->
+                <div class="empresa-single">
+                    <img src="../images/marca04.png" alt="">
+                </div> <!-- Empresa Single-->
+                <div class="empresa-single">
+                    <img src="../images/marca05.png" alt="">
+                </div> <!-- Empresa Single-->
+                <div class="empresa-single">
+                    <img src="../images/marca06.png" alt="">
+                </div> <!-- Empresa Single-->
+                <div class="empresa-single">
+                    <img src="../images/marca07.png" alt="">
+                </div> <!-- Empresa Single-->
+                <div class="empresa-single">
+                    <img src="../images/marca08.png" alt="">
+                </div> <!-- Empresa Single-->
+            </div><!-- Empresas -->
+        </div>
+    </section>
+
+    <section class="formulario">
+        <div class="container">
+            <h2>Faça um orçamento ou envie uma dúvida:</h2>
+            <form action="" method="post">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" placeholder="Nome" required id="nome">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="E-mail" required id="email">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" placeholder="Telefone" id="telefone">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" placeholder="Mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="boxfooter">
+                <h2>Endereço</h2>
+                <p>Rua das Alfafas, 1823 - Centro, São Paulo/SP <br> 01001-000</p>
+            </div>
+            <div class="boxfooter">
+                <h2>Telefone</h2>
+                <p> +55 (11) 12345-6789</p>
+            </div>
+            <div class="boxfooter">
+                <h2>Receba nossas notícias</h2>
+                <input type="text" name="news" id="news" placeholder="E-mail">
+                <button type="submit"><i class="fa fa-paper-plane"></i></button>
+            </div>
+            <div class="clear"></div>
+            
+        </div>
+        <p class="author">Ikaro Amorim - 2020</p>
+    </footer>
+
+
+
+    <script src="../plugins/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>

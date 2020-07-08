@@ -1,0 +1,433 @@
+$logo-path: ("../images/logo.png")
+$banner-path: ("../images/bg.jpg")
+$sectbanner-path: ("../images/sectbanner.jpg")
+$btn-color: #ff5f27
+$service-btn-color : #6a7c92
+$menu-color: #31475e
+$texto-color: #31475e
+$filter-color: rgba(0,0,0,0.6)
+$main-color: rgba(224, 224, 224, 0.5)
+$footer-color: #0B1428
+$input-color:   #ebebeb
+$break-resolution: 1024px
+$break-resolution-small: 768px
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Roboto', sans-serif
+
+body
+    background-color: $main-color
+    overflow-x: hidden
+
+.container
+    max-width: 1280px
+    padding: 0 2%
+    margin: 0 auto
+    
+
+.clear
+    clear: both
+
+//compatibilidade mobile
+input, textarea
+    appearance: none
+    -webkit-appearance:none
+
+header
+    background-image: url($banner-path)
+    background-size: cover
+    background-position: center
+
+    .filter
+        width: 100%
+        min-height: 600px
+        padding: 30px 0
+        background-color: $filter-color
+
+    .logo
+        position: relative
+        z-index: 2
+        background-image: url($logo-path)
+        background-size: 100% 100%
+        float: left
+        width: 100px
+        height: 56px
+
+    .mobile
+        display: none
+        float: right
+        @media screen and ( max-width: $break-resolution)
+            display: block
+
+            h3
+                color: white
+                cursor: pointer
+                font-size: 22px
+                position: relative
+                z-index: 2
+                
+            ul
+                display: block
+                position: absolute
+                list-style: none
+                top: 0
+                left: 0
+                width: 100%
+                padding: 30px 0
+                background-color: $filter-color //$menu-color
+                display: none
+
+                li
+                    padding: 10px 0
+                    text-align: center
+
+                    a
+                        color: white
+                        display: block
+                        text-decoration: none
+
+                    .btn-nav
+                        padding: 5px 15px
+                        border-radius: 20px
+                        border: 1px solid white
+                        display: inline-block
+                    
+                
+
+    .desktop
+        float: right
+        @media screen and ( max-width: $break-resolution)
+            display: none
+
+        ul
+            list-style-type: none
+
+            li
+                display: inline-block
+                margin: 0 15px
+
+                a
+                    color: white
+                    text-decoration: none
+
+            .btn-nav
+                padding: 3px 8px
+                border-radius: 20px
+                border: 1px solid white
+
+    .chamada-header
+        padding: 110px 0
+        @media screen and ( max-width: $break-resolution)
+            text-align: center
+
+        h2
+            font-size: 47px
+            color: white
+            font-weight: normal
+
+        p
+            font-size: 20px
+            color: white
+            margin-top: 10px
+            max-width: 600px
+            @media screen and ( max-width: $break-resolution)
+                display: inline-block
+
+        form
+            margin-top: 10px
+
+        input[type=email]
+            display: inline-block
+            border-radius: 20px
+            background: white
+            width: 237px
+            height: 35px
+            border: 0
+            padding-left: 10px
+            line-height: 35px
+            @media screen and ( max-width: $break-resolution)
+                margin-bottom: 20px
+
+            &:focus
+                outline: 0
+
+        input[type=submit]
+            width: 181px
+            height: 43px
+            margin: 0 10px
+            border-radius: 100px
+            background-color: $btn-color
+            color: white
+            cursor: pointer
+            border: 0
+            
+            &:hover
+                transform: scale(1.1)
+                background-color: darken( $btn-color, 10%)
+
+.descricao
+    text-align: center
+    margin: 50px 0
+
+    p
+        font-weight: lighter
+        font-size: 22px
+        font-style: italic
+        max-width: 680px
+        display: inline-block
+
+
+.advertising-1
+    padding: 50px 0
+
+    .texto-descricao
+        float: left
+        padding: 0 10px
+        width: 60%
+        @media screen and ( max-width: $break-resolution)
+            width: 100%
+            display: block
+            float: none
+            margin: 0 auto
+
+        h3
+            color: $texto-color
+            line-height: 32px
+            margin: 30px 0
+        
+        p
+            color: $texto-color
+            line-height: 32px
+
+    img
+        float: right
+        width: 40%
+        @media screen and ( max-width: $break-resolution)
+            width: 100%
+            margin-top: 20px
+            display: block
+            float: none
+            margin: 0 auto
+
+.banner
+    padding: 30px 0
+
+    .content
+        width: 100%
+        min-height: 300px
+        background-image: url($sectbanner-path)
+        background-size: cover
+        background-position: center
+        position: relative
+
+        .box-depoimento
+            position: absolute
+            width: 70%
+            left: 45%
+            bottom: -20%
+            max-width: 506px
+            background-color: white
+            padding: 10px 30px
+            box-shadow: 0 8px 20px 0 $main-color
+            @media screen and ( max-width: $break-resolution)
+                top: 50%
+                left: 50%
+                bottom: auto
+                transform: translate(-50%,-50%)
+
+            p
+                font-size: 18px
+                color: $texto-color
+                font-weight: lighter
+                margin: 20px 0
+
+.servicos
+    padding: 100px 0
+
+    .title-servicos
+        text-align: center
+
+        h3
+            color: $texto-color
+            font-size: 22px
+            font-weight: normal
+    
+    .flex-servicos
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+
+        .box-servico
+            background-color: #fff
+            width: 32%
+            border-radius: 10px
+            //border: 10px solid $main-color
+            text-align: justify
+            box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5)
+            margin: 30px 0
+            @media screen and ( max-width: $break-resolution)
+                width: 48%
+            @media screen and ( max-width: $break-resolution-small)
+                width: 98%
+
+            img
+                width: 100%
+
+            .box-servico-wraper
+                padding: 30px
+
+                h4
+                    color: $texto-color
+                    font-weight: normal
+
+                p
+                    color: $texto-color
+                    font-size: 15px
+                    font-weight: lighter
+                    margin: 8px 0
+                    line-height: 1.6
+
+                a
+                    display: inline-block
+                    width: 120px
+                    height: 43px
+                    border: 1px solid $service-btn-color
+                    color: $service-btn-color
+                    text-decoration: none
+                    padding: 10px 19px
+                    border-radius: 20px
+
+.portifolio
+    padding: 40px 0
+    background-color: white
+
+    h2
+        text-align: center
+        font-weight: normal
+        color: $texto-color
+        font-size: 36px
+
+    .empresas
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-around
+        align-items: center
+        margin: 50px 0
+
+
+        .empresa-single
+            width: 21%
+            margin: 25px 0
+            @media screen and ( max-width: $break-resolution)
+                width: 27%
+
+
+            img
+                width: 100%
+                padding: 10px
+
+.formulario
+    padding: 30px 0
+    text-align: center
+    
+
+    h2
+        text-align: center
+        font-weight: normal
+        color: $texto-color
+        font-size: 36px
+        margin-bottom: 30px
+
+    label
+        display: inline-block
+        width: 20%
+        vertical-align: top
+        padding-top: 20px
+        font-size: 20px
+        @media screen and ( max-width: $break-resolution)
+            display: none
+
+    textarea
+        display: inline-block
+        width: 78%
+        line-height: 40px
+        border-radius: 20px
+        padding-left: 20px
+        border: 1px solid $input-color
+        margin: 15px 0
+        font-size: 16px
+        resize: vertical
+
+        &:focus
+            outline: 0
+
+    input
+        display: inline-block
+        width: 78%
+        height: 40px
+        line-height: 40px
+        border-radius: 100px
+        padding-left: 20px
+        border: 1px solid $input-color
+        margin: 15px 0
+        font-size: 16px
+
+        &:focus
+            outline: 0
+
+    input[type='submit']
+        background-color: $btn-color
+        color: white
+        width: 80%
+        font-size: 24px
+
+footer
+    padding: 20px 0
+    margin-top: 50px
+    background-color: $footer-color
+    color: white
+
+    .boxfooter
+        float: left
+        width: 33%
+        @media screen and ( max-width: $break-resolution)
+            float: none
+            text-align: center
+            width: 100%
+            margin: 20px 0
+
+
+        h2
+            font-size: 22px
+            font-weight: normal
+
+        p
+            margin-top: 10px
+            font-weight: lighter
+            font-size: 15px
+
+        input
+            margin-top: 10px
+            height: 40px
+            line-height: 40px
+            border-radius: 100px
+            padding-left: 20px
+            border: 1px solid $input-color
+            margin: 15px 0
+            font-size: 16px
+            &:focus
+                outline: 0
+
+        button
+            width: 43px
+            height: 43px
+            border-radius: 43px
+            border: 1px solid $menu-color
+
+
+    .author
+        text-align: right
+        padding: 0  10px
